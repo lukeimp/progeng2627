@@ -2,6 +2,7 @@
 
 int main(){
     double height, weight, bmi;
+    // variables
 
     std::cout << "What is your height in centi-metres?" << std::endl;
     std::cin >> height;
