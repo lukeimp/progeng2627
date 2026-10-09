@@ -1,15 +1,15 @@
 #include <iostream>
 
 int main(){
-    double h, w, bmi;
+    double height, weight, bmi;
 
     std::cout << "What is your height in centi-metres?" << std::endl;
-    std::cin >> h;
+    std::cin >> height;
 
     std::cout << "What is your weight in kilograms?" << std::endl;
-    std::cin >> w;
+    std::cin >> weight;
 
-    bmi = (w)/((h/100.0)*(h/100.0));
+    bmi = (weight)/((height/100.0)*(height/100.0));
 
     std::cout << "Your BMI is " << bmi << std::endl;
 }
