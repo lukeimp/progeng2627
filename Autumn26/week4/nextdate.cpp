@@ -2,7 +2,6 @@
 
 bool leap_year(int year){
     bool ly;
-
     if((year % 4) == 0){
         if((year % 100) == 0){
             if((year % 400) == 0){
@@ -10,15 +9,12 @@ bool leap_year(int year){
             }
             else{
                 ly = false;
-
             }
-
         }
     }
     else{
         ly = false;
     }
-
     return ly;
 }
 
@@ -39,6 +35,4 @@ int main(){
     
     std::cin >> d1 >> m1 >> y1;
     std::cin >> d2 >> m2 >> y2;
-
-    
 }
