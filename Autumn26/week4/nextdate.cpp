@@ -56,5 +56,6 @@ void next_date(int d1, int m1, int y1, int& d2, int& m2, int& y2){
 int main(){
     int d1, m1, y1, d2, m2, y2;
 
-    std::cin << 
+    std::cin >> d1 >> m1 >> y1;
+    std::cout << d2 << m2 << y2 << std::endl;
 }
