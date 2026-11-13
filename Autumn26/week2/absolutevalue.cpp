@@ -14,6 +14,5 @@ int main(){
         // TODO: assign the value of n to absv
         absv = n;
     }
-
     std::cout << "|" << n << "| = " << absv << std::endl;
 }
