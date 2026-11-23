@@ -116,7 +116,6 @@ int main(int argc, char* argv[]){
         std::cout << "error, can't open input file" << std::endl;
         return EXIT_FAILURE;
     }
-
     int tmp;
 
     while(infile >> tmp){

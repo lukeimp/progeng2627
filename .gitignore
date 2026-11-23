@@ -5,6 +5,12 @@
 *.dylib
 *.bin
 *.out
+*.txt
+
+# Linux extensionless executables
+*
+!*.*
+!*/
 
 # Common build / output folders (optional, adjust to your project)
 build/
