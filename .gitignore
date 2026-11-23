@@ -1,0 +1,12 @@
+# Windows & general executables / binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+*.out
+
+# Common build / output folders (optional, adjust to your project)
+build/
+dist/
+target/
